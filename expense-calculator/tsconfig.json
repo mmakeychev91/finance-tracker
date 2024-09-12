@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015", // Устанавливаем целевую версию ECMAScript
+    "lib": ["dom", "es2015"], // Добавляем поддержку ES2015 и DOM
+    "module": "commonjs", // Модульная система
+    "jsx": "react", // Включаем поддержку JSX для React (можно использовать 'react-jsx' для React 17+)
+    "strict": true, // Включаем строгий режим TypeScript
+    "esModuleInterop": true, // Поддержка импорта ES6 модулей
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
